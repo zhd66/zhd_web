@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Quentin Tarantino</title>
+<style type="text/css">
+	body {
+		background-image: url();
+		background-color: #666;
+	
+	}	
+	#QT{
+		font-size: 25px;
+		text-align: center;
+		float: left;
+		padding-left: 650px;
+	}
+	
+	#time1{
+		font-size: 15px;
+		margin-left: 1300px;
+		width: 200px
+	}
+	
+	#top_line{
+		margin-top: 20px;
+	}
+	
+	#QT_Img {
+		margin-top: 20px;
+		margin-left: 150px;	
+	}
+	.Basic_InFo {
+		margin-top: 10px;
+		padding-left: 15px;
+		font-size: 22px;
+		text-align:center;
+	}
+	#guiding{
+		margin-right: 550px;
+		padding-top: 50px;
+		width:100px;
+		height: 100px;
+		float: right;
+	}
+	.navbar1{
+		list-style-type:none;/*把每列前面的列表默认原点元素去掉*/
+		margin:0;/*填充都去掉*/
+		padding:0;/*填充都去掉*/
+		width: 400px;/*定义整个导航栏的宽度*/
+		background-color: gray;/*导航栏的背景颜色设置成灰色*/
+		border-style: solid;/*给导航栏加个外围边框，默认黑色*/
+	}
+	.navbar1 li a{
+		text-decoration: none;/*把文本自带的下划线去掉*/
+		color:black;/*字体颜色设置为黑色*/
+		padding: 8px 0px;/*适当增加一些填充空间，使各列表项适当分开*/
+		display: block;/*各项以block形式显示*/
+		text-align: center;/*文本位于block中央区域*/
+	}
+
+	.navbar1 li a:hover{/*如果鼠标放在栏目上，执行的变化*/
+		background-color: white;/*背景变为黑色*/
+	}
+
+	.F_line{
+		margin-top: 25px;
+	}
+	
+	#InFo_table{
+		margin: 20px auto;
+		border-style: hidden;
+		background-color: white;
+	}
+	
+	#P_Info_content{
+		width: 540px;
+		margin: 0 auto;
+		background-color: white;
+		border-style: solid;
+		float: left;
+		margin-left: 250px;
+		margin-top: 15px;
+	}
+	
+	#QT_Img2{
+		float: right;
+		margin-right: 250px;
+		margin-top: 42px;
+	}
+	
+	.QT_Img{
+		margin-top: 42px;
+		margin-left: 155px;
+	}
+	
+	#P_Life_content{
+		width: 540px;
+		margin: 0 auto;
+		background-color: white;
+		border-style: solid;
+		float: left;
+		margin-left: 250px;
+		margin-top: 15px;
+	}
+	
+	#QT_Wedding{
+		margin-top: 30px;
+		margin-left: 95px;
+	}
+	
+	.Film_Img{
+		margin-left: 60px;
+		margin-top: 20px;
+	}
+	
+	#zz{
+		text-align: center;
+		font-size: 25px;
+		float:left;
+		margin-left: 680px;
+	}
+	
+	#A_table{
+		background-color: white;
+		margin: 20px auto;
+		border-style: hidden;
+	}
+	
+	#A_table td{
+		height: 30px;
+		font-size: px;
+		vertical-align: middle;
+	}
+	
+	#A_table th{
+		height: 40px;
+		vertical-align: middle;
+	}
+	
+	#A_table_2{
+		background-color: white;
+		margin: 20px auto;
+		border-style: hidden;
+	}
+
+	#A_table_2 td{
+		height: 30px;
+		font-size: px;
+		vertical-align: middle;
+	}
+	
+	#A_table_2 th{
+    height: 40px;
+    vertical-align: middle;
+    font-size: 24px;
+	}
+	
+	#C_eva_content{
+		width: 670px;
+		background-color: white;
+		margin-left: 415px;
+	}
+	
+	#contact{
+		margin-left: 1400px;
+	}
+	
+</style>
+<link href="chrome.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div align="center" id="QT">Quentin Tarantino</div>
+  <!--setInterval实时显示时间-->
+  <div id="time1" style="color: white;"></div>
+	<script>
+    function mytime(){
+        var a = new Date();
+        var b = a.toLocaleTimeString();
+        var c = a.toLocaleDateString();
+        document.getElementById("time1").innerHTML = c+"&nbsp"+b;
+    }
+    setInterval(function() {mytime()},1000);
+	</script>
+<hr id="top_line"/>
+<img src="昆汀.jpeg" alt="" name="QT_Img" width="520" height="288" id="QT_Img"/>
+<div id="guiding">
+    <ul class="navbar1">
+    <li><a class="active" href="#B_Info">Basic Imformation&nbsp;</a></li>	
+    <li><a href="#P_Info">Performing Experience&nbsp;</a></li>
+    <li><a href="#P_Life">Personnal Life&nbsp;</a></li>
+    <li><a href="#Films">Films&nbsp;</a></li>
+	<li><a href="#Awards">Awards&nbsp;</a></li>	
+	<li><a href="#C_eva">Character evaluation</a></li></ul>
+</div>
+<hr class="F_line" width="400" />
+<div class="Basic_InFo" id="B_Info">Basic Imformation</div>
+<hr width="400" />
+<div>
+	<table id="InFo_table" width="556" border="1">
+  <tbody>
+    <tr>
+      <td width="270" height="30">&nbsp;Name :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Quentin Tarantino</td>
+      <td width="270">&nbsp;Constellations :&nbsp;Aries</td>
+    </tr>
+    <tr>
+      <td height="30">&nbsp;Nationality : The US</td>
+      <td>&nbsp;Profession :&nbsp;Director, screenwriter,&nbsp; actor</td>
+    </tr>
+    <tr>
+      <td height="30">&nbsp;Nation :&nbsp; &nbsp; &nbsp; &nbsp; Italian descent</td>
+      <td>&nbsp;Marital status : Married</td>
+    </tr>
+    <tr>
+      <td height="30">&nbsp;Birthplace :&nbsp; Knoxvill Tennessee</td>
+      <td>&nbsp;Height : 189cm</td>
+    </tr>
+    <tr>
+      <td height="30">&nbsp;Birthday :&nbsp; &nbsp; &nbsp;March 27, 1963</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+	
+<hr class="F_line" width="400" />
+<div class="Basic_InFo" id="P_Info">Performing Experience</div>
+<hr width="400" />
+<div id="P_Info_content">
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>1985</b>, Quentin Tarantino wrote his first play, Captain prechfuzz and anchovies robber, based on an absurd dream; In the same year, Quentin Tarantino took part in the family comedy golden girl season 1  。&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>1986</b>, Quentin Tarantino found several clerks in the audio-visual store and shot the short film debut "my best friend's birthday" in a rough way, but before several people had seen the film, the film was almost completely destroyed in a fire accident. However, the director's experience has also accumulated valuable film experience for him. So, in the next two years, he wrote two official screenplays, fatal romance and natural killer.&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>1991</b>, Quentin Tarantino received $50000 from the sale of the script of fatal romance and began to prepare for the film. During this period, he left the video rental store and began to adapt for a small film and television company called "cine Tel". Here, he met producer Lawrence band, and they formed a film production company called "band apart".&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>1992</b>, Quentin Tarantino's crime thriller "drowning dog" premiered at the Sundance Film Festival.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>1994</b>, he directed the crime film vulgar novel co starring Bruce Willis, UMA Thurman and John Travolta, which won the Golden Palm Award at the 47th Cannes International Film Festival, and Quentin Tarantino won the best original screenplay award at the 67th Academy Awards. </p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>1995</b>, he co directed the short film collection four rooms with Robert Rodriguez, Alison Anders and Alexander Rockwell; In the same year, Quentin Tarantino guest starred in the action thriller "the three steps to murder" directed by Robert Rodriguez. </p>
+  <p> &nbsp; &nbsp; &nbsp; In <b>1996</b>, he starred with George Clooney in the action horror film "killing dawn", which was written by him.</p>
+  <p>&nbsp; &nbsp; &nbsp; In <b>1997</b>, he wrote and directed the crime film dangerous relationship, which was co starred by PAM Greer, Samuel Jackson and Robert foster.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>March 14</b>,<b> 1998</b>, the comedic film "witty words in a hilarious house" was released.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>March 16</b>,<b> 1999</b>, the action thriller horror film "bloodthirsty maniac" as a producer was released.。</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>January 18</b>, <b>2000</b>, the producer's action thriller from dusk to dawn 3 was released.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>September 30</b>,<b> 2001</b>, the Spy Drama "double faced female spy Season 1" premiered.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>September 29</b>, <b>2002</b>, the Spy Drama "double faced female spy Season 2" was broadcast.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>2003</b>, he wrote and directed the action thriller crime film Kill Bill starring UMA Thurman and David karadin, which won the best action / adventure / thriller film of the 30th Saturn Award.&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>April 16</b>, <b>2004</b>, the action thriller crime film Kill Bill 2 was released, which won the best action / adventure / thriller film of the 31st Saturn Award; In May, he was invited as the chairman of the jury of the 57th Cannes International Film Festival.&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>2005</b>, he co directed with Frank Miller and Robert Rodriguez the crime thriller City starring Jessica Alba, Bruce Willis and cliff Owen, which was nominated for the Golden Palm Award at the 58th Cannes International Film Festival.&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>September 7</b>, <b>2006</b>, the documentary "roar of freedom", as a producer, was released.&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>April 6</b>, <b>2007</b>, the action thriller horror film "prison" directed in cooperation with Robert Rodriguez was released. Quentin Tarantino was responsible for the part called "evidence of death". After the partition of "prison", this part premiered at the 60th Cannes International Film Festival on May 22 of the same year and was nominated for the Golden Palm Award.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>August 8</b>, <b>2008</b>, the action thriller hell knight, as a producer, was released.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>2009</b>, he co directed the war film "shameless bastard" co starred by Melanie Roland, Brad Pitt and Diane Kruger with Eli Ross. The film won the nomination for best film at the 82nd Academy Awards and the nomination for best film in the film plot category at the 67th American film and television Golden Globe Awards, Quentin Tarantino was nominated for best director in the 82nd Academy Awards and best director in the film plot category in the 67th American film and television Golden Globe Awards.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>2011</b>, he appeared in the documentary Coman's world.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>October 7</b>, <b>2013</b>, Quentin Tarantino won the world best director award of the 10th Huading award.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>2012</b>, he wrote and directed the western action film "saved ginger", CO starring Jamie fox, Christopher Waltz and Leonardo DiCaprio. The film won the nomination for best film at the 85th Academy Awards and the nomination for best film in film plot at the 70th American film and television Golden Globe Awards, Quentin Tarantino won the best original screenplay award at the 85th Academy Awards and the best screenwriter award in the film plot category at the 70th American film and television Golden Globe Awards.&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>2015</b>, he wrote and directed the western action film eight villains, CO starring Kurt Russell, Samuel Jackson and Jennifer Jason Lee. Quentin Tarantino won the nomination of best screenwriter in the film category of the 73rd American film and television Golden Globe Award for this film.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;On <b>July 26</b>, <b>2019</b>, the self-made and directed crime film "Hollywood past" was released, starring Leonardo DiCaprio and Brad Pitt, and won the best film award in Music Comedy at the 77th American film and television Golden Globe Award, while Quentin Tarantino won the best screenplay award in film category; In December, he was rated as the "top ten directors of the year" by the British guardian.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;In <b>June 2021</b>, the 16th Rome Film Festival announced the winners of the lifetime achievement award. Quentin Tarantino and director Tim Bolton won the lifetime achievement award together.</p>
+</div>
+<img src="昆汀1.jpeg" width="304" height="361" alt="" id="QT_Img2"/>	
+<img src="昆汀2.jpeg" width="304" height="361" alt="" class="QT_Img"/>
+<img src="昆汀3.jpeg" width="304" height="361" alt="" class="QT_Img"/>
+<img src="昆汀4.jpeg" width="304" height="431" alt="" class="QT_Img"/>
+<img src="昆汀5.jpeg" width="304" height="361" alt="" class="QT_Img"/>
+<img src="昆汀6.jpeg" width="304" height="361" alt="" class="QT_Img"/>
+	
+<hr class="F_line" width="400" />
+<div class="Basic_InFo" id="P_Life">Personal Life</div>
+<hr width="400" />
+<div id="P_Life_content">
+  <p> <b>&nbsp; &nbsp; &nbsp; Parents</b> </p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Quentin Tarantino's father was Italian, while his mother was&nbsp; &nbsp; &nbsp;half Irish and half Indian. Both of them are film lovers, and the name&nbsp; &nbsp;"Quentin" comes from the role played by Bert Renault in fireworks.</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;<b>Marriage</b></p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On the evening of June 30, 2017, Quentin Tarantino was engaged to Israeli singer and model Daniela pick, the daughter of Israeli musician Zvika pick, in Los Angeles.&nbsp;</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On November 28, 2018, Quentin Tarantino and Daniela pike married in Los Angeles. On February 23, 2020, Quentin Tarantino's wife Daniela pike gave birth to their first child, a boy.&nbsp;</p>
+<p></p>
+</div>
+<img src="昆汀的婚礼.jpeg" width="500" height="300" alt="" id="QT_Wedding"/>
+	
+<hr class="F_line" width="400" />
+<div class="Basic_InFo" id="Films">Films</div>
+<hr width="400" />
+<a href="film_1.html"> <img src="低俗小说.jpg" width="300" height="400" alt="" class="Film_Img" title="Pulp Fiction" /></a>
+<a href="film_2.html"><img src="杀死比尔.jpg" width="300" height="400" alt="" class="Film_Img" title="Kill Bill Vol.1"/></a>
+<a href="film_3.html"><img src="罪恶之城.jpg" width="300" height="400" alt="" class="Film_Img" title="Sin City"/></a>
+<a href="film_4.html"><img src="无耻混蛋.jpg" width="300" height="400" alt="" class="Film_Img" title="Inglourious Basterds"/></a>
+<a href="film_5.html"><img src="被解救的姜戈.jpg" width="300" height="400" alt="" class="Film_Img" title="Django Unchained"/></a>
+<a href="film_6.html"><img src="八恶人.jpg" width="300" height="400" alt="" class="Film_Img" title="The Hateful Eight"/></a>
+<a href="film_7.html"><img src="好莱坞往事.jpg" width="300" height="400" alt="" class="Film_Img" title="Once Upon A Time In Hollywood"/></a>
+	
+<hr class="F_line" width="400" />
+<div class="Basic_InFo" id="Awards">Awards</div>
+<hr width="400" />	
+
+<table width="711" border="1" id="A_table">
+  <tbody>
+    <tr>
+      <th width="701" style="font-size: 24px" scope="col">Oscar Golden Statuettes</th>
+    </tr>
+    <tr>
+      <td height="35">2020 92nd Best Picture award <b>Once Upon A Time In Hollywood</b> (Nomination)</td>
+    </tr>
+    <tr>
+      <td height="35">2020 92nd Best Original Screenplay award <b>Once Upon A Time In Hollywood</b> (Nomination)</td>
+    </tr>
+    <tr>
+      <td>2020 92nd Best Director award  <b>Once Upon A Time In Hollywood </b>(Nominated)</td>
+    </tr>
+    <tr>
+      <td>2013  85th Best Picture award  <b>Django Unchained</b> (Nominated)</td>
+    </tr>
+    <tr>
+      <td>2013 85th Best Original Screenplay award <b>Django Unchained</b> (Award Winning)</td>
+    </tr>
+    <tr>
+      <td>2010 82nd Best Original Screenplay award <b>Inglourious Basterds</b> (Nominated)</td>
+    </tr>
+    <tr>
+      <td>2010  82nd Best Picture award <b>Inglourious Basterds</b> (Nominated)</td>
+    </tr>
+    <tr>
+      <td>2010 82nd Best Director award <b>Inglourious Basterds</b> (Nominated)</td>
+    </tr>
+    <tr>
+      <td>1995 67th Best Original Screenplay award <b>Pulp Fiction</b> (Award Winning)</td>
+    </tr>
+  </tbody>
+</table>
+	
+<table width="711" border="1" id="A_table_2">
+  <tbody>
+    <tr>
+      <th width="701" scope="col">Festival De Cannes</th>
+    </tr>
+    <tr>
+      <td>2019 72nd Golden Palm Award  <b>Once Upon A Time In Hollywood</b> (Nomination)</td>
+    </tr>
+    <tr>
+      <td>2009 62nd Golden Palm Award <b>Inglourious Basterds</b> (Nomination)</td>
+    </tr>
+    <tr>
+      <td>2007 60nd Golden Palm Award <b>Death Proof </b>(Nomination)</td>
+    </tr>
+    <tr>
+      <td>1994 47nd Golden Palm Award<b>Pulp Fiction </b>(Nomination)</td>
+    </tr>
+  </tbody>
+</table>
+	
+<hr class="F_line" width="400" />
+<div class="Basic_InFo" id="C_eva">Character evaluation</div>
+<hr width="400" />
+<div id="C_eva_content">
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;Quentin Tarantino's works always give people varying degrees of satisfaction from the perspective of watching the excitement or from the perspective of watching the profession. He is talented, familiar with all kinds of film languages and film types, but he has never been bound by any rules. His works are never perfect and always have sharp edges and corners. However, all kinds of high scenes can make fans experience unprecedented excitement and happiness. (commented by Hainan Daily) </p>
+  <p>&nbsp; &nbsp; &nbsp; In Quentin Tarantino's works, stylized violence is everywhere. Although many films involve violence, no director is as addicted to it as he is. Quentin Tarantino's violence aesthetics inherits the banter and ritualization in clockwork orange and the truth and cruelty in taxi driver. On this basis, it gives new connotation and produces its own unique characteristics. Therefore, he led the trend of film violence aesthetics in the 1990s . (commented by new express)</p>
+  <p>&nbsp; &nbsp; &nbsp; &nbsp;Quentin Tarantino is good at telling stories in a non-linear way, expressing black humor in extreme ways, and deconstructing everything heartlessly. In his films, there is no great significance and no characters that need to be positively portrayed. If he can make the audience laugh, he will never have hypocritical pity for his characters. In addition, his techniques of segmenting the structure of the play from the viewpoint and using sound editing for story cohesion have had a far-reaching impact on the future films . (Sohu Entertainment review)</p>
+</div>
+	
+	
+<hr/>
+<div id="zz">From Baidu</div>	
+<a href="https://mail.163.com/" id="contact">Contact Us</a>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
